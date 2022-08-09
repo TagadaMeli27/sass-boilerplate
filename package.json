@@ -1,0 +1,18 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple sass boilerplate",
+  "scripts": {
+    "build": "sass style/sass/main.scss style/css/style.css",
+    "start": "sass --watch style/sass/main.scss style/css/style.css"
+  },
+  "keywords": [
+    "sass",
+    "sass boilerplate"
+  ],
+  "author": "Mélissa Leray",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.3"
+  }
+}
